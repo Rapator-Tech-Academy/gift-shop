@@ -1,0 +1,181 @@
+body {
+  font-family: Gilroy, sans-serif;
+}
+
+h1 {
+  font-weight: bold !important;
+}
+
+.finder-button {
+  border-color: #f7941e;
+  color: #f7941e;
+  font-family: Gilroy;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.finder-button:hover {
+  background-color: #f7941e;
+  border-color: #f7941e;
+}
+
+.navbar-brand {
+  min-width: 7rem;
+}
+
+.navbar-brand img {
+  min-width: 4rem;
+  display: block;
+  margin: auto;
+}
+
+.main-bg {
+  background-color: #fafafa;
+}
+
+.orange-bg {
+  background-color: #f7941e;
+  border-color: #f7941e;
+}
+
+.black-bg {
+    background-color: #000000;
+}
+
+.black-bg:hover {
+    background-color: transparent;
+}
+
+.hover-transparent-bg:hover {
+    background-color: transparent;
+}
+
+.main-button {
+  font-family: Gilroy;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.orange-bg:hover {
+  background-color: #f7941e;
+  border-color: #f7941e;
+}
+
+.orange-button {
+  border-color: #f7941e;
+  color: #f7941e;
+}
+
+.orange-button:hover {
+  background-color: #f7941e;
+  border-color: #f7941e;
+}
+
+#main-cover-photo {
+  background-image: url(../images/Background.png);
+  background-size: cover;
+  background-position: center;
+  min-height: 30rem;
+}
+
+#secondary-cover-photo {
+  background-image: url(../images/background-2.png);
+  background-size: cover;
+  background-position: center;
+  min-height: 30rem;
+}
+
+#first-sec-column {
+  min-height: 30rem;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background-color: #f1f1f2;
+}
+
+.main-content-area {
+  max-width: 60%;
+}
+
+.card-img-top {
+  border-radius: 0;
+}
+
+.card {
+  width: 90% !important;
+  margin: auto;
+  border-radius: 0;
+  background-color: #fafafa;
+  border-color: transparent;
+  transition-duration: 1s;
+}
+
+.card:hover {
+  -webkit-box-shadow: 1px 0px 5px 0px rgba(0, 0, 0, 0.57);
+  -moz-box-shadow: 1px 0px 5px 0px rgba(0, 0, 0, 0.57);
+  box-shadow: 1px 0px 5px 0px rgba(0, 0, 0, 0.57);
+  background-color: #fff;
+}
+
+.card h4 {
+  font-family: Gilroy;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.card a {
+  text-decoration: none;
+  color: #000000;
+  transition-duration: 1s;
+}
+
+.card span {
+  transition-duration: 1s;
+}
+
+.card a:hover span {
+  margin-left: 10px;
+}
+
+
+.cta-button {
+    height: 3rem;
+    border-color: #000000;
+    color: #fff;
+}
+
+.cta-button:hover {
+    border-color: #000000;
+    color: #ffffff;
+}
+
+#blog-cover-img {
+    background-image: url(../images/blog-cover-img.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.blog-cover-content h2,
+.blog-cover-content p,
+.blog-cover-content a {
+    color: #ffffff !important;
+}
+
+.bg-darker {
+    background-color: #231F20;;
+}
+
+#blog-cover-img {
+    min-height: 20rem;
+}
