@@ -179,3 +179,33 @@ h1 {
 #blog-cover-img {
     min-height: 20rem;
 }
+
+.long-div {
+  color: #fff;
+}
+
+#with-cover {
+  background-image: url(../images/white-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 0;
+}
+
+.black-layer {
+  background: rgb(34,193,195);
+  background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,0.21192226890756305) 100%);
+  padding: 2rem;
+}
+
+.example-div {
+  background-color: plum;
+  min-height: 20rem;
+  border-right: 2px solid white;
+}
+
+.product-div {
+  background-color: #fff;
+  min-height: 15rem;
+  border: 1px solid plum;
+}
